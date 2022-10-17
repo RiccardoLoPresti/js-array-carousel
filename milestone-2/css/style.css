@@ -5,7 +5,7 @@
 }
 
 .hide{
-  display: block;
+  display: none;
 }
 
 .main-container{
@@ -21,7 +21,6 @@
   display: flex;
   width: 750px;
   height: 450px;
-  background-color: rgb(80, 84, 87);
 }
 
 .btn{
@@ -35,6 +34,7 @@
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: rgba(0, 0, 0, 0.616);
